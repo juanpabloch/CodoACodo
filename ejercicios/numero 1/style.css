@@ -11,6 +11,11 @@ body{
     margin: auto;
 }
 
+a{
+    text-decoration: none;
+    color: #000;
+}
+
 h1{
     text-align: center;
     text-decoration: underline;
@@ -22,7 +27,7 @@ h1{
     margin-bottom: 50px;
 }
 
-a{
+.link-codigo a{
     display: flex;
     align-items: center;
     justify-content: right;
@@ -30,8 +35,15 @@ a{
     text-decoration: none;
     color: #000;
 }
-a img{
+.link-codigo a img{
     margin-left: 10px;
     width: 40px;
     border-radius: 50%;
+}
+
+.volver{
+    text-align: left;
+    color: #ee4e34;
+    text-transform: uppercase;
+    font-weight: 500;
 }
