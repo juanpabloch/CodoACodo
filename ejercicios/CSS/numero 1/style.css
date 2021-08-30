@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 20px;
+    background-color: rgb(240, 240, 240);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cuadrado{
+    width: 250px;
+    min-width: 200px;
+    height: 250px;  
+    background-color: red;
+    margin: 10px;
+    color: yellow;
+    padding: 2px;
+}
+
+.cuadrado p{
+    font-size: 2rem;
+}
+
+.cuadrado:nth-child(2){
+    background-color: #000;
+    color: #fff;
+}
+
+/*links volver y git*/
+
+.link-codigo{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.link-codigo .git{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+}
+.link-codigo a img{
+    margin-left: 10px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.volver{
+    text-align: left;
+    color: #ee4e34;
+    text-transform: uppercase;
+    font-weight: 500;
+}

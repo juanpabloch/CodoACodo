@@ -47,6 +47,18 @@ a{
     font-size: 1.5rem;
 }
 
+/*section*/
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+    article{
+        min-width: 200px;
+        margin: 15px 0;
+    }
+
 /*footer*/
 footer{
     position: fixed;
