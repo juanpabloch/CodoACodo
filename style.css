@@ -53,6 +53,8 @@ section{
     justify-content: space-around;
     align-items: flex-start;
     flex-wrap: wrap;
+    height: 100vh;
+    margin-bottom: 20px;
 }
     article{
         min-width: 200px;
@@ -64,9 +66,10 @@ footer{
     position: fixed;
     bottom: 0;
     left: 0;
-    padding: 30px;
+    padding: 20px 30px;
     width: 100vw;
     border-top: 1px solid var(--color-bordes);
+    background-color: var(--color-fondo);
 }
 
     .container-footer{
