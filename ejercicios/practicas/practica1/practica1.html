@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica pagina web</title>
+    <!-- estilos -->
+    <link rel="stylesheet" href="style.css">
+    <!-- fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header id="home">
+        <nav>
+            <div class="logo">
+                <img src="img/logo.png" alt="logo resonancia">
+                <div class="titulo">
+                    <h2><span class="first-letter">R</span>esonancia <span class="first-letter">M</span>agnetica</h2> 
+                </div>
+            </div>
+            <ul>
+                <li><a href="#resonancia">¿Resonancia?</a></li>
+                <li><a href="#preparacion">Preparación</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        
+        <div class="mobile-nav">
+            <ul>
+                <li><a href="#resonancia">¿Resonancia?</a></li>
+                <li><a href="#preparacion">Preparación</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+
+        <div class="showcase">
+            <div class="titulo">
+                <img src="img/Titulo.png" alt="titulo MRI">
+                <div class="datos">
+                    <h1>Centro de resonancia magnética</h1>
+                    <p>Brindamos un servicio de exelencia en diagnóstico por imágenes. 
+                        Nos esforzamos por brindar una excelente asistencia y confort a los pacientes. 
+                    </p>
+                </div>
+            </div>
+            <div class="imgen-showcase">
+                <img src="img/equipo.png" alt="imagen equipo de resonancia">
+            </div>
+        </div>
+    </header>
+
+    <div class="contenido">
+        <a href="#home"><div class="volver">&#708</div></a>
+        <section>
+            <article class="articulo1" id="resonancia">
+                <h2>¿Que es la Resonancia Magnética?</h2>
+                <p>
+                    La resonancia magnética nuclear, es un método para producir imágenes detalladas 
+                    de los órganos y tejidos del cuerpo sin la necesidad de usar rayos X o 
+                    radiación "ionizante". La RM utiliza un poderoso campo magnético, ondas de 
+                    radiofrecuencia y una computadora para 
+                    crear imágenes, las cuales sirven para evaluar lesiones, enfermedades o condiciones 
+                    anormales.  
+                </p>
+                <img class="imagenNoRadiacion" src="img/noRadiation.png" alt="imagen sin radiacion">
+            </article>
+
+            <article class="articulo2" id="preparacion">
+                <h2>Como prepararse:</h2>
+                <p>Puede utilizar esta información para prepararse para la mayoría de las resonancias 
+                    magnéticas. La preparación para una resonancia magnética cardíaca o de próstata 
+                    otros órganos pueden seguir instrucciones especiales.  
+                </p>
+
+                <div class="prep">
+                    <div class="info">
+                        <h3>Implantes</h3>
+                        <p>informe a nuestro personal de resonancia magnética si tiene algún implante metálico o electrónico en su cuerpo y traiga la documentación sobre el mismo a su cita.</p>
+                    </div>
+                    <div class="img img-protesis">
+                        <img src="img/protesis.png" alt="imagen protesis">
+                    </div>
+                </div>
+
+                <div class="prep invertir">
+                    <div class="info">
+                        <h3>Contraste</h3>
+                        <p>El contraste se administra por vía intravenosa. Se necesitan 3 horas de ayuno mínimo para realizar el estudio con contraste.</p>
+                    </div>
+                    <div class="img img-jeringa">
+                        <img src="img/contraste.png" alt="imagen jeringa">
+                    </div>
+                </div>
+
+
+                <div class="prep">
+                    <div class="info">
+                        <h3>Ropa</h3>
+                        <p>use ropa cómoda y sin detalles metálicos. En el centro contamos con camisolines si necesita cambiarse.</p>
+                    </div>
+                    <div class="img img-ropa">
+                        <img src="img/ropa.png" alt="imagen ropa comoda">
+                    </div>
+                </div>
+            </article>
+        </section>
+    
+        <section>
+            <div id="contacto" class="contacto">
+                <h1>Contacto</h1>
+                <div class="contacto-contain">
+                    <form>
+                        <div>
+                            <label for="email">Nombre: </label>
+                            <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu Nombre">
+                        </div>
+                        <div>
+                            <label for="email">Email: </label>
+                            <input type="email" name="email" id="email" placeholder="Ingresa tu Email">
+                        </div>
+                        <div>
+                            <label for="mensaje">Mensaje:</label>
+                            <textarea name="mensaje" id="mensaje" cols="20" rows="7"></textarea>
+                        </div>
+                        <input type="submit" value="Enviar">
+                    </form>
+                    <img src="img/imagenReso.png" alt="imagen dibujo resonancia">
+                </div>
+            </div>
+        </section>
+    
+        <footer>
+            <div>
+                <p>&#169 Juan Pablo Choternasty</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
