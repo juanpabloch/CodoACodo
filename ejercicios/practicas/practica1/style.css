@@ -416,6 +416,7 @@ footer{
             min-width: 100px;
         }
 
+
     .contacto img{
         width: 100%;
         position: absolute;
@@ -474,4 +475,7 @@ footer{
         justify-content: space-between;
     }
 
+    .articulo2 .invertir{
+        margin-bottom: 20px;
+    }
 }
