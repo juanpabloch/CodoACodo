@@ -272,7 +272,7 @@ footer{
     background-color: var(--fondo);
     margin-top: -21px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -297,6 +297,20 @@ footer{
 .contenido .volver:hover{
     background-color: var(--verde);
 }
+
+.link-codigo .git{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+  }
+  .link-codigo a img{
+    margin-left: 10px;
+    width: 40px;
+    border-radius: 50%;
+  }
 
 /*950px*/
 @media screen and (max-width: 950px) {
@@ -455,6 +469,9 @@ footer{
         height: 30px;
     }
     footer{
+        padding: 0 20px;
         margin-top: -11px;
+        justify-content: space-between;
     }
+
 }
