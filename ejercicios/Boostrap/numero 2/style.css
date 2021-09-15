@@ -1,0 +1,50 @@
+select{
+    width: 100%;
+    background: #fff;
+    border: 1px solid #ced4da;
+    padding: .48rem .8rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+}
+form{
+    margin:0 auto; 
+    margin-top: 50px; 
+    max-width: 700px; 
+    background-color: rgb(246, 246, 246);
+    padding: 1.5rem;
+}
+h1{
+    text-align: center;
+    margin: 10px;
+}
+
+/*links volver y git*/
+
+.link-codigo{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+  }
+  .link-codigo .git{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+  }
+  .link-codigo a img{
+    margin-left: 10px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  
+  .volver{
+    text-align: left;
+    color: #ee4e34;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
