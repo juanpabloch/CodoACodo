@@ -1,0 +1,32 @@
+body { max-width: 700px; margin: 3% auto;}
+p{font-size: 2rem;}
+
+/*links volver y git*/
+
+.link-codigo{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.link-codigo .git{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+}
+.link-codigo a img{
+    margin-left: 10px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.volver{
+    text-align: left;
+    color: #ee4e34;
+    text-transform: uppercase;
+    font-weight: 500;
+}
