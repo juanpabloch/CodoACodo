@@ -27,7 +27,7 @@ const clearErrors = ()=>{
 const formSuccess = (nombre)=>{
     Exito.style.display = 'block'
     formulario.style.display = 'none'
-    mensaje.textContent = `Hola ${nombre}, Bienvenido!`
+    mensaje.textContent = `Hola ${nombre}, Bienvenid@!`
 } 
 
 formulario.addEventListener('submit', e=>{
